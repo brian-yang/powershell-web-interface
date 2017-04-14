@@ -33,12 +33,12 @@
             <table>
                 <tr>
                     <td>&nbsp;</td>
-                    <td><h1>Alliance Bernstein Windows CSSA Group</h1></td>
+                    <td><h1>PowerShell Web Interface</h1></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     <td>
-                        <h2 align="left">PowerShell Scripts</h2>
+                        <h2 align="left">Output</h2>
                     </td>
                 </tr>
                 <tr>

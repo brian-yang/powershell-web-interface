@@ -8,8 +8,10 @@
 <head id="Head1" runat="server">
     <title>Alliance Bernstein Windows CSSA Group</title>
     <link rel="stylesheet" type="text/css" href="css/button.css" />
-    <link rel="stylesheet" type="text/css" href="css/logo.css" />
     <style type="text/css">
+        .auto-style1 {
+            width: 875px;
+        }
     </style>
 </head>
 <body>
@@ -18,19 +20,11 @@
             <table align="center">
                 <tr>
                     <td>&nbsp;</td>
-                    <td><img class="logo" src="assets/logo.png"/></td>
+                    <td class="auto-style1"><h1 align="center">PowerShell Web Interface</h1></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td><h2 align="center">Alliance Bernstein Windows CSSA Group</h2></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td><h3 align="center">Powershell Web Interface</h3></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>
+                    <td class="auto-style1">
                         <b>Note</b>: Leave the prompt blank if the script you're trying to run doesn't take arguments.
                         <br />
                         <br />
@@ -45,7 +39,7 @@
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>
+                    <td class="auto-style1">
                         <br />
                         <br />
                         <u>Path</u>: \<%= Session["directory"].ToString() %>
@@ -53,13 +47,13 @@
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>
+                    <td class="auto-style1">
                         <asp:Panel runat="server" ID="folderPanel"></asp:Panel>
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>
+                    <td class="auto-style1">
                         <asp:Panel runat="server" ID="scriptsPanel"></asp:Panel>
                     </td>
                 </tr>

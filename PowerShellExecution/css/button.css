@@ -1,0 +1,23 @@
+﻿.button {
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 16px;
+    cursor: pointer;
+
+    font-size: 12px;
+
+    background-color: white;
+}
+
+.folder:hover {
+    background-color: gold;
+}
+
+.script:hover {
+    background-color: aqua;
+}
+
+

@@ -36,3 +36,20 @@
 	2. If you want to run your own scripts, please put your scripts in the powershell_scripts folder in the site folder.
 	Do not rename the powershell_scripts folder, or else the web interface will not be able to find the scripts.
 	However, you are free to make subdirectories within the powershell_scripts folder.
+
+## Important Notes
+
+1. Please put all your scripts in the powershell_scripts folder. If you want to make subdirectories within that folder to organize your scripts please do so. 
+
+2. When putting in parameters and arguments, regular parameters (parameters WITH arguments) and positional parameters (parameters WITHOUT arguments) are space-separated. If you wish to add an argument 
+to a regular parameter, please do so in this format: '-param1=arg'. __There can only be one arg per parameter.__ Parameters and arguments are optional if the script does not require them.
+
+_Example:_
+```	
+	parameter (non-positional, has arguments): "-param1=arg"
+	paramter (positional, no arguments): "param2"
+	full input: "-param1=arg param2"
+```
+
+3. If you see the error 'Access to path is denied', you must give IIS full permissions to the folder/file
+that you are trying to access.

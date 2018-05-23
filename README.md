@@ -53,3 +53,7 @@ _Example:_
 
 3. If you see the error 'Access to path is denied', you must give IIS full permissions to the folder/file
 that you are trying to access.
+
+## Pushing PowerShell Scripts to Git
+
+Currently, all files in the powershell_scripts folder are ignored. If you want to modify this, please edit the .gitignore file.
